@@ -1,0 +1,27 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Nested duplicate environment
+rocket-rl-project/
+
+# Secrets
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+.pytest_cache/
